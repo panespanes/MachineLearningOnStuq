@@ -1,5 +1,6 @@
-from tree import TreeNode, Tree
 import matplotlib.pyplot as plt
+
+from lesson1.tree import TreeNode, Tree
 
 rootNode = TreeNode(label="age", child={
     "<30": TreeNode(label="tall", child={
